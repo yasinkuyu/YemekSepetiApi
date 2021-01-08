@@ -1,22 +1,20 @@
 # YemekSepetiApi
 Yemeksepeti.com Company List (JSON or CSV)
 
+    require "yemeksepeti_api.php";
 
-
-require "yemeksepeti_api.php";
-
-$api = new YemekSepetiApi();
-$api->setCityUrl("https://www.yemeksepeti.com/tekirdag/corlu-alipasa-mah#ors:false");
-$api->json();
+    $api = new YemekSepetiApi();
+    $api->setCityUrl("https://www.yemeksepeti.com/tekirdag/corlu-alipasa-mah#ors:false");
+    $api->json();
 
 # Debug mode
-$api->setDebug(true);
+    $api->setDebug(true);
 
 # CSV output
-$api->csv();
+    $api->csv();
 
 # Json output
-$api->json();
+    $api->json();
 
 # json output 
 

@@ -1,4 +1,4 @@
-# YemekSepetiApi
+## YemekSepetiApi
 Yemeksepeti.com Company List (JSON or CSV)
 
     require "yemeksepeti_api.php";
@@ -7,16 +7,16 @@ Yemeksepeti.com Company List (JSON or CSV)
     $api->setCityUrl("https://www.yemeksepeti.com/tekirdag/corlu-alipasa-mah#ors:false");
     $api->json();
 
-# Debug mode
+## Debug mode
     $api->setDebug(true);
 
-# CSV output
+## CSV (Excel) output
     $api->csv();
 
-# Json output
+## Json output
     $api->json();
 
-# json output 
+## json output 
 
     [
         {
@@ -5250,65 +5250,62 @@ Yemeksepeti.com Company List (JSON or CSV)
         }
     ]
 
-# official api output
+## Official api output
 
-    /*  
+    [CategoryName] => d5f57489-253e-4a9e-afd6-2b884cd7a7af
+    [AreaName] => Çorlu (Alipaşa Mah.)
+    [DisplayName] => Pera Villa, Çorlu (Kemalettin Mah.)
+    [MainCuisineName] => Dünya Mutfağı & Cafe
+    [MinimumDeliveryPriceText] => 35,00
+    [SeoUrl] => /pera-villa-corlu-kemalettin-mah-tekirdag
+    [this->restaurantstatus] => 0
+    [IsNew] => 
+    [IsOpen] => 
+    [IsFreezoneRestaurant] => 
+    [IsAdRestaurant] => 
+    [HasCampusDiscount] => 
+    [Avgthis->restaurantscore] => 7,4
+    [IsYSDeliveryRestaurant] => 
+    [ImageLabelListFullPath] => Array
+        (
+            [0] => https://cdn.yemeksepeti.com/Labels/Promotion/eski_indirim_yuzde_25.png?v=1
+        )
 
-        [CategoryName] => d5f57489-253e-4a9e-afd6-2b884cd7a7af
-        [AreaName] => Çorlu (Alipaşa Mah.)
-        [DisplayName] => Pera Villa, Çorlu (Kemalettin Mah.)
-        [MainCuisineName] => Dünya Mutfağı & Cafe
-        [MinimumDeliveryPriceText] => 35,00
-        [SeoUrl] => /pera-villa-corlu-kemalettin-mah-tekirdag
-        [this->restaurantstatus] => 0
-        [IsNew] => 
-        [IsOpen] => 
-        [IsFreezoneRestaurant] => 
-        [IsAdRestaurant] => 
-        [HasCampusDiscount] => 
-        [Avgthis->restaurantscore] => 7,4
-        [IsYSDeliveryRestaurant] => 
-        [ImageLabelListFullPath] => Array
-            (
-                [0] => https://cdn.yemeksepeti.com/Labels/Promotion/eski_indirim_yuzde_25.png?v=1
-            )
+    [SuperDelivery] => 
+    [Recommendation] => 
+    [AllPromotionImageListFullPath] => Array
+        (
+            [0] => https://cdn.yemeksepeti.com/Labels/Promotion/indirim_yuzde_25.png?v=1
+        )
 
-        [SuperDelivery] => 
-        [Recommendation] => 
-        [AllPromotionImageListFullPath] => Array
-            (
-                [0] => https://cdn.yemeksepeti.com/Labels/Promotion/indirim_yuzde_25.png?v=1
-            )
+    [WorkHoursText] => 08:00-23:00
+    [DeliveryTime] => 60
+    [ImagePath] => https://cdn.yemeksepeti.com/CategoryImages/TR_TEKIRDAG/pera_villa_big.gif
+    [SpeedText] => 7,5
+    [FlavourText] => 7,2
+    [ServingText] => 7,5
+    [DeliveryTimeText] => 50 - 60 dk.
+    [ImageFullPathSmall] => https://cdn.yemeksepeti.com/CategoryImages/TR_TEKIRDAG/pera_villa_small.gif
+    [IsDiscountedDeliveryFee] => 
+    [DeliveryFeeText] => 0,00
+    [DiscountedDeliveryFeeText] => 0,00
+    [Avgthis->restaurantscorePoint] => 7.4
+    [SpecialCategoryImageListFullPath] => Array
+        (
+        )
 
-        [WorkHoursText] => 08:00-23:00
-        [DeliveryTime] => 60
-        [ImagePath] => https://cdn.yemeksepeti.com/CategoryImages/TR_TEKIRDAG/pera_villa_big.gif
-        [SpeedText] => 7,5
-        [FlavourText] => 7,2
-        [ServingText] => 7,5
-        [DeliveryTimeText] => 50 - 60 dk.
-        [ImageFullPathSmall] => https://cdn.yemeksepeti.com/CategoryImages/TR_TEKIRDAG/pera_villa_small.gif
-        [IsDiscountedDeliveryFee] => 
-        [DeliveryFeeText] => 0,00
-        [DiscountedDeliveryFeeText] => 0,00
-        [Avgthis->restaurantscorePoint] => 7.4
-        [SpecialCategoryImageListFullPath] => Array
-            (
-            )
+    [ImageShortPath] => /CategoryImages/TR_TEKIRDAG/pera_villa.gif
+    [ImageShortPathSmall] => /CategoryImages/TR_TEKIRDAG/pera_villa_small.gif
+    [CuisineNameList] => Array
+        (
+            [0] => Dünya Mutfağı & Cafe
+        )
 
-        [ImageShortPath] => /CategoryImages/TR_TEKIRDAG/pera_villa.gif
-        [ImageShortPathSmall] => /CategoryImages/TR_TEKIRDAG/pera_villa_small.gif
-        [CuisineNameList] => Array
-            (
-                [0] => Dünya Mutfağı & Cafe
-            )
+    [CuisineImageList] => Array
+        (
+            [0] => dunya-mutfagi.jpg
+        )
 
-        [CuisineImageList] => Array
-            (
-                [0] => dunya-mutfagi.jpg
-            )
-
-        [CatalogName] => TR_TEKIRDAG
-        [IsPickUpRestaurant] = 
-        
-    */
+    [CatalogName] => TR_TEKIRDAG
+    [IsPickUpRestaurant] = 
+    
